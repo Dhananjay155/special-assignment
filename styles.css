@@ -1,0 +1,158 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Navbar styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #000000;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100vh;
+}
+
+.navbar ul li {
+    margin-right: 1em;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.auth-buttons .login-btn, .auth-buttons .signup-btn {
+    margin-left: 1em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn {
+    background-color: #000000;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    border-radius: 8px;
+}
+
+
+.signup-btn {
+    background-color: #000000;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.575);
+    border-radius: 8px;
+}
+
+
+
+/* Main Section */
+.main-section {
+    text-align: center;
+    padding: 4em 1em;
+    background: black
+}
+
+.main-section h1 {
+    font-size: 3em;
+    color: white;
+}
+
+.main-title-h1 {
+    background: linear-gradient(to right, #4821f377,#6532dd, #901fdb, #ce1fe6);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.input-group {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group input {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+.generate-btn {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.icon-generate {
+    margin-right: 0.5em;
+}
+
+/* Features Section */
+.head{
+    background-color: #000000;
+    color: white;
+    
+}
+.features-section {
+    background-color: #000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card {
+    display:flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border-radius: 8px;
+    border-color: white;
+}
+
+.border{
+    border:none;
+    border-radius: 8px;
+    background: rgba(128, 128, 128, 0.192);
+}
+.feature-card button {
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #000000;
+    border: 1px solid white;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* Footer Section */
+.footer {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer .social-media-icons a {
+    color: white;
+    margin: 0 0.5em;
+    font-size: 1.5em;
+    text-decoration: none;
+}
